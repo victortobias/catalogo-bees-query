@@ -6,7 +6,8 @@
     "container_unit_of_measurement": "ml",
     "source_vendor_item_id": "0026758",
     "product_sku": "0026758",
-    "item_platform_id": "Y3hLeTI3QW9TOW1kaXFqUG9BWUNuZz09OzAwMjY3NTg="
+    "item_platform_id": "Y3hLeTI3QW9TOW1kaXFqUG9BWUNuZz09OzAwMjY3NTg=",
+    "price": 38.9
   },
   {
     "name": "Cerveja Brahma Chopp Descartável 350ml Caixa c/ 12 un",
@@ -15,7 +16,8 @@
     "container_unit_of_measurement": "ml",
     "source_vendor_item_id": "0013079",
     "product_sku": "0013079",
-    "item_platform_id": "Y3hLeTI3QW9TOW1kaXFqUG9BWUNuZz09OzAwMTMwNzk="
+    "item_platform_id": "Y3hLeTI3QW9TOW1kaXFqUG9BWUNuZz09OzAwMTMwNzk=",
+    "price": 3.29
   },
   {
     "name": "Cerveja Brahma Duplo Malte Latao 473ml Fardo c/ 12",
@@ -24,7 +26,8 @@
     "container_unit_of_measurement": "ml",
     "source_vendor_item_id": "0102045",
     "product_sku": "0102045",
-    "item_platform_id": "c0xUc1pUR0tBUnRJSDR5ZVlDV2hKdz09OzAxMDIwNDU="
+    "item_platform_id": "c0xUc1pUR0tBUnRJSDR5ZVlDV2hKdz09OzAxMDIwNDU=",
+    "price": 4.99
   },
   {
     "name": "Cerveja Skol Pilsen Long Neck 355ml Caixa c/ 12",
@@ -33,7 +36,8 @@
     "container_unit_of_measurement": "ml",
     "source_vendor_item_id": "0009871",
     "product_sku": "0009871",
-    "item_platform_id": "TTZKT1FUR0txYk1WdXhZQ0Y2ZVdSQT09OzAwMDk4NzE="
+    "item_platform_id": "TTZKT1FUR0txYk1WdXhZQ0Y2ZVdSQT09OzAwMDk4NzE=",
+    "price": 3.59
   },
   {
     "name": "Cerveja Spaten Munich Helles Lata 350ml Pack UN",
@@ -42,6 +46,7 @@
     "container_unit_of_measurement": "ml",
     "source_vendor_item_id": "0019023",
     "product_sku": "0019023",
-    "item_platform_id": "V1RVeFpUUTVOV1psT0d0bGNUTmpPQT09OzAwMTkwMjM="
+    "item_platform_id": "V1RVeFpUUTVOV1psT0d0bGNUTmpPQT09OzAwMTkwMjM=",
+    "price": 4.79
   }
 ]

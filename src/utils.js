@@ -47,6 +47,14 @@ export function convertToMilliliters(value, unit) {
   return amount;
 }
 
+export function formatVariantFromSize(sizeMl) {
+  if (!Number.isFinite(sizeMl)) return null;
+  const rounded = Number.isInteger(sizeMl)
+    ? sizeMl.toString()
+    : sizeMl.toFixed(2).replace(/0+$/, '').replace(/\.$/, '');
+  return `${rounded}ml`;
+}
+
 export function clamp(value, min = 0, max = 1) {
   return Math.min(max, Math.max(min, value));
 }
