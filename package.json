@@ -1,0 +1,25 @@
+{
+  "name": "catalogo-bees-query",
+  "version": "1.0.0",
+  "description": "API de catálogo com busca fuzzy por proximidade.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "catalogo",
+    "busca",
+    "fuzzy",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}

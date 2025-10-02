@@ -1,0 +1,47 @@
+[
+  {
+    "name": "UNIAO ACUCAR MASCAVO SACHE 4G CX C/200",
+    "pack_name": "UN",
+    "container_item_size": "800.00000",
+    "container_unit_of_measurement": "ml",
+    "source_vendor_item_id": "0026758",
+    "product_sku": "0026758",
+    "item_platform_id": "Y3hLeTI3QW9TOW1kaXFqUG9BWUNuZz09OzAwMjY3NTg="
+  },
+  {
+    "name": "Cerveja Brahma Chopp Descartável 350ml Caixa c/ 12 un",
+    "pack_name": "CX",
+    "container_item_size": "350.00000",
+    "container_unit_of_measurement": "ml",
+    "source_vendor_item_id": "0013079",
+    "product_sku": "0013079",
+    "item_platform_id": "Y3hLeTI3QW9TOW1kaXFqUG9BWUNuZz09OzAwMTMwNzk="
+  },
+  {
+    "name": "Cerveja Brahma Duplo Malte Latao 473ml Fardo c/ 12",
+    "pack_name": "FD",
+    "container_item_size": "473.00000",
+    "container_unit_of_measurement": "ml",
+    "source_vendor_item_id": "0102045",
+    "product_sku": "0102045",
+    "item_platform_id": "c0xUc1pUR0tBUnRJSDR5ZVlDV2hKdz09OzAxMDIwNDU="
+  },
+  {
+    "name": "Cerveja Skol Pilsen Long Neck 355ml Caixa c/ 12",
+    "pack_name": "CX",
+    "container_item_size": "355.00000",
+    "container_unit_of_measurement": "ml",
+    "source_vendor_item_id": "0009871",
+    "product_sku": "0009871",
+    "item_platform_id": "TTZKT1FUR0txYk1WdXhZQ0Y2ZVdSQT09OzAwMDk4NzE="
+  },
+  {
+    "name": "Cerveja Spaten Munich Helles Lata 350ml Pack UN",
+    "pack_name": "UN",
+    "container_item_size": "350.00000",
+    "container_unit_of_measurement": "ml",
+    "source_vendor_item_id": "0019023",
+    "product_sku": "0019023",
+    "item_platform_id": "V1RVeFpUUTVOV1psT0d0bGNUTmpPQT09OzAwMTkwMjM="
+  }
+]
