@@ -6,7 +6,8 @@ import {
   parseSizeFromQuery,
   clamp,
   detectPackKeyword,
-  formatPackDescription
+  formatPackDescription,
+  formatVariantFromSize
 } from './utils.js';
 import { ALIASES, BRANDS, PACK_SYNONYMS } from './synonyms.js';
 
@@ -83,14 +84,6 @@ function computeTokenScore(queryTokens, itemTokens) {
   return clamp(overlap + brandBonus, 0, 1);
 }
 
-function formatVariant(sizeMl) {
-  if (!sizeMl) return null;
-  const rounded = Number.isInteger(sizeMl)
-    ? sizeMl.toString()
-    : sizeMl.toFixed(1).replace(/\.0$/, '');
-  return `${rounded}ml`;
-}
-
 export function searchCatalog(query, limit = 5) {
   const normalizedQuery = normalizeText(query || '');
   const queryTokens = uniqueTokens(tokenize(query || ''));
@@ -118,8 +111,8 @@ export function searchCatalog(query, limit = 5) {
     .map(({ item, score }) => ({
       product_id: item.product_sku || item.source_vendor_item_id,
       name: item.name,
-      variant: formatVariant(item.size_ml),
-      pack: formatPackDescription(item.pack_name, item.name),
+      variant: item.variant || formatVariantFromSize(item.size_ml),
+      pack: item.pack || formatPackDescription(item.pack_name, item.name),
       score: Number(score.toFixed(4))
     }));
 
